@@ -10,29 +10,29 @@
 <h1>Cadastro de Itens</h1>
     <form method="POST">
         <label for="item1">Nome do Item 1:</label>
-        <input type="text" id="item1" name="item1" required><br><br>
+        <input type="text" id="item1" name="item1" required>
         <label for="preco1">Preço do Item 1:</label>
-        <input type="number" step="0.01" id="preco1" name="preco1" required><br><br>
+        <input type="number" step="0.01" id="preco1" name="preco1" required>
 
         <label for="item2">Nome do Item 2:</label>
-        <input type="text" id="item2" name="item2" required><br><br>
+        <input type="text" id="item2" name="item2" required>
         <label for="preco2">Preço do Item 2:</label>
-        <input type="number" step="0.01" id="preco2" name="preco2" required><br><br>
+        <input type="number" step="0.01" id="preco2" name="preco2" required>
 
         <label for="item3">Nome do Item 3:</label>
-        <input type="text" id="item3" name="item3" required><br><br>
+        <input type="text" id="item3" name="item3" required>
         <label for="preco3">Preço do Item 3:</label>
-        <input type="number" step="0.01" id="preco3" name="preco3" required><br><br>
+        <input type="number" step="0.01" id="preco3" name="preco3" required>
 
         <label for="item4">Nome do Item 4:</label>
-        <input type="text" id="item4" name="item4" required><br><br>
+        <input type="text" id="item4" name="item4" required>
         <label for="preco4">Preço do Item 4:</label>
-        <input type="number" step="0.01" id="preco4" name="preco4" required><br><br>
+        <input type="number" step="0.01" id="preco4" name="preco4" required>
 
         <label for="item5">Nome do Item 5:</label>
         <input type="text" id="item5" name="item5" required><br><br>
         <label for="preco5">Preço do Item 5:</label>
-        <input type="number" step="0.01" id="preco5" name="preco5" required><br><br>
+        <input type="number" step="0.01" id="preco5" name="preco5" required>
 
         <button type="submit">Enviar</button>
     </form>
