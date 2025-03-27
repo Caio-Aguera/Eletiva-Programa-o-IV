@@ -14,16 +14,16 @@
         <fieldset>
             <legend>Aluno <?= $i ?></legend>
             <label for="nome<?= $i ?>">Nome:</label>
-            <input type="text" id="nome<?= $i ?>" name="nome<?= $i ?>" required><br><br>
+            <input type="text" id="nome<?= $i ?>" name="nome<?= $i ?>" required>
 
             <label for="nota1_<?= $i ?>">Nota 1:</label>
-            <input type="number" id="nota1_<?= $i ?>" name="nota1_<?= $i ?>" step="0.01" required><br><br>
+            <input type="number" id="nota1_<?= $i ?>" name="nota1_<?= $i ?>" step="0.01" required>
 
             <label for="nota2_<?= $i ?>">Nota 2:</label>
-            <input type="number" id="nota2_<?= $i ?>" name="nota2_<?= $i ?>" step="0.01" required><br><br>
+            <input type="number" id="nota2_<?= $i ?>" name="nota2_<?= $i ?>" step="0.01" required>
 
             <label for="nota3_<?= $i ?>">Nota 3:</label>
-            <input type="number" id="nota3_<?= $i ?>" name="nota3_<?= $i ?>" step="0.01" required><br><br>
+            <input type="number" id="nota3_<?= $i ?>" name="nota3_<?= $i ?>" step="0.01" required>
         </fieldset>
     <?php endfor; ?>
 
