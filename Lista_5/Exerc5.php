@@ -12,9 +12,9 @@
     <?php for ($i = 1; $i <= 5; $i++): ?>
         <h3>Livro <?php echo $i; ?></h3>
         <label for="titulo<?php echo $i; ?>">Título:</label>
-        <input type="text" name="titulo<?php echo $i; ?>" required><br>
+        <input type="text" name="titulo<?php echo $i; ?>" required>
         <label for="quantidade<?php echo $i; ?>">Quantidade em Estoque:</label>
-        <input type="number" name="quantidade<?php echo $i; ?>" required min="0"><br><br>
+        <input type="number" name="quantidade<?php echo $i; ?>" required min="0">
     <?php endfor; ?>
 
     <input type="submit" value="Enviar">
