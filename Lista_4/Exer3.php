@@ -10,10 +10,10 @@
 <h2>Verificar se a segunda palavra está contida na primeira</h2>
     <form method="POST">
         <label for="primeira_palavra">Primeira palavra:</label>
-        <input type="text" id="primeira_palavra" name="primeira_palavra" required><br><br>
+        <input type="text" id="primeira_palavra" name="primeira_palavra" required>
 
         <label for="segunda_palavra">Segunda palavra:</label>
-        <input type="text" id="segunda_palavra" name="segunda_palavra" required><br><br>
+        <input type="text" id="segunda_palavra" name="segunda_palavra" required>
 
         <button type="submit">Verificar</button>
     </form>
