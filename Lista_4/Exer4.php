@@ -9,13 +9,13 @@
 <body>
 <form method="POST" action="">
     <label for="dia">Dia:</label>
-    <input type="number" name="dia" required><br>
+    <input type="number" name="dia" required>
     
     <label for="mes">Mês:</label>
-    <input type="number" name="mes" required><br>
+    <input type="number" name="mes" required>
     
     <label for="ano">Ano:</label>
-    <input type="number" name="ano" required><br>
+    <input type="number" name="ano" required>
     
     <input type="submit" value="Verificar Data">
 </form>
