@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Formulário 1</h1>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="firstName">First name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Mark">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="lastName">Last name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Otto">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="username">Username</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@</span>
+                        </div>
+                        <input type="text" class="form-control" id="username" placeholder="Username">
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="city">City</label>
+                    <input type="text" class="form-control" id="city" placeholder="City">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="state">State</label>
+                    <input type="text" class="form-control" id="state" placeholder="State">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="zip">Zip</label>
+                    <input type="text" class="form-control" id="zip" placeholder="Zip">
+                </div>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="terms">
+                <label class="form-check-label" for="terms">Agree to terms and conditions</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit form</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Formulário 2</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label for="codigo">Código</label>
+                    <input type="text" class="form-control" id="codigo" value="32">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Nome Completo do Cliente">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="email">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="cliente@dominio.com">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="cpf">CPF</label>
+                    <input type="text" class="form-control" id="cpf" placeholder="Só números">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label for="celular">Nº Celular</label>
+                    <input type="text" class="form-control" id="celular" placeholder="Nº do celular">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="telefone">Nº Telefone fixo</label>
+                    <input type="text" class="form-control" id="telefone" placeholder="Nº telefone">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="cep">CEP</label>
+                    <input type="text" class="form-control" id="cep" placeholder="ex:88308070">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="logradouro">Logradouro</label>
+                    <input type="text" class="form-control" id="logradouro" placeholder="ex:Rua 1400">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-1">
+                    <label for="numero">Nº</label>
+                    <input type="text" class="form-control" id="numero" placeholder="Nº">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" class="form-control" id="bairro" placeholder="Bairro">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" class="form-control" id="cidade" placeholder="Cidade">
+                </div>
+                <div class="form-group col-md-1">
+                    <label for="uf">UF</label>
+                    <input type="text" class="form-control" id="uf" placeholder="UF">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="status">Status</label>
+                    <select id="status" class="form-control">
+                        <option selected>Selecione</option>
+                        <!-- Adicione as opções aqui -->
+                    </select>
+                </div>
+            </div>
+            <button type="reset" class="btn btn-danger">Resetar</button>
+            <button type="submit" class="btn btn-success">Próximo</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">Sample Form</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="partnerName">Partner Name</label>
+                    <input type="text" class="form-control" id="partnerName" placeholder="Partner Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="partnerEmail">Partner Email ID</label>
+                    <input type="email" class="form-control" id="partnerEmail" placeholder="Partner Email ID">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="partnerLegalName">Partner Legal Name</label>
+                    <input type="text" class="form-control" id="partnerLegalName" placeholder="Partner Legal Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="partnerMobile">Partner Mobile</label>
+                    <input type="text" class="form-control" id="partnerMobile" placeholder="Partner Mobile">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="partnerAddress">Partner Address</label>
+                <input type="text" class="form-control" id="partnerAddress" placeholder="Partner Address">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="contractStartDate">Contract Start Date</label>
+                    <input type="date" class="form-control" id="contractStartDate">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="contractExpiryDate">Contract Expiry Date</label>
+                    <input type="date" class="form-control" id="contractExpiryDate">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="minLoanAmount">Minimum Loan Amount</label>
+                    <input type="number" class="form-control" id="minLoanAmount" placeholder="Minimum Loan Amount">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="maxLoanAmount">Maximum Loan Amount</label>
+                    <input type="number" class="form-control" id="maxLoanAmount" placeholder="Maximum Loan Amount">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="interestRate">Interest Rate</label>
+                    <input type="number" class="form-control" id="interestRate" placeholder="Interest Rate">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="depositAmount">Deposit Amount</label>
+                    <input type="number" class="form-control" id="depositAmount" placeholder="Deposit Amount">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Save</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo Usuário</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Novo Usuário</h2>
+        <form>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" placeholder="Informe o nome">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" class="form-control" id="cpf" placeholder="Informe o cpf">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" class="form-control" id="endereco" placeholder="Informe o endereço">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Informe o email">
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input type="password" class="form-control" id="senha" placeholder="Informe a senha">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label for="nivel">Nível:</label>
+                    <select id="nivel" class="form-control">
+                        <option selected>--</option>
+                        <!-- Adicione as opções aqui -->
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="status">Status:</label>
+                    <select id="status" class="form-control">
+                        <option selected>--</option>
+                        <!-- Adicione as opções aqui -->
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+            <button type="button" class="btn btn-secondary">Cancelar</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 5</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Formulário 5</h2>
+        <form>
+            <div class="form-group">
+                <label for="firstName">First name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="First name">
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Last name">
+            </div>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <label for="email">Email (Optional)</label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" class="form-control" id="address" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+                <label for="address2">Address 2 (Optional)</label>
+                <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="country">Country</label>
+                    <select id="country" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="state">State</label>
+                    <select id="state" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="zip">Zip</label>
+                    <input type="text" class="form-control" id="zip">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
