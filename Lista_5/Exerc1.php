@@ -9,29 +9,29 @@
 <h1>Cadastro de Contatos</h1>
     <form method="POST">
         <label for="nome1">Nome do Contato 1:</label>
-        <input type="text" id="nome1" name="nome1" required><br><br>
+        <input type="text" id="nome1" name="nome1" required>
         <label for="telefone1">Número do Contato 1:</label>
-        <input type="text" id="telefone1" name="telefone1" required><br><br>
+        <input type="text" id="telefone1" name="telefone1" required>
 
         <label for="nome2">Nome do Contato 2:</label>
-        <input type="text" id="nome2" name="nome2" required><br><br>
+        <input type="text" id="nome2" name="nome2" required>
         <label for="telefone2">Número do Contato 2:</label>
-        <input type="text" id="telefone2" name="telefone2" required><br><br>
+        <input type="text" id="telefone2" name="telefone2" required>
 
         <label for="nome3">Nome do Contato 3:</label>
-        <input type="text" id="nome3" name="nome3" required><br><br>
+        <input type="text" id="nome3" name="nome3" required>
         <label for="telefone3">Número do Contato 3:</label>
-        <input type="text" id="telefone3" name="telefone3" required><br><br>
+        <input type="text" id="telefone3" name="telefone3" required>
 
         <label for="nome4">Nome do Contato 4:</label>
-        <input type="text" id="nome4" name="nome4" required><br><br>
+        <input type="text" id="nome4" name="nome4" required>
         <label for="telefone4">Número do Contato 4:</label>
-        <input type="text" id="telefone4" name="telefone4" required><br><br>
+        <input type="text" id="telefone4" name="telefone4" required>
 
         <label for="nome5">Nome do Contato 5:</label>
-        <input type="text" id="nome5" name="nome5" required><br><br>
+        <input type="text" id="nome5" name="nome5" required>
         <label for="telefone5">Número do Contato 5:</label>
-        <input type="text" id="telefone5" name="telefone5" required><br><br>
+        <input type="text" id="telefone5" name="telefone5" required>
 
         <button type="submit">Enviar</button>
     </form>
